@@ -1,0 +1,14 @@
+.paragraph {
+    color: #1E1E1E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: justify;
+    width: 70%;
+    margin-top: 2rem;
+}
+
+.image {
+    width: 650px;
+    height: 600px;
+}

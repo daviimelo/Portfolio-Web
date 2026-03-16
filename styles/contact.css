@@ -1,0 +1,17 @@
+.contact-content {
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.contact-content-title {
+    margin-bottom: 2rem;
+}
+
+.contact-title {
+    line-height: 0.8;
+}
+
+.contact-images {
+    width: 2.5rem;
+    height: 2.5rem;
+}
