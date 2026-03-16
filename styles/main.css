@@ -7,7 +7,7 @@
 }
 
 .navbar {
-    padding: 3.75em 8em;
+    padding: 3.75em 8em 0.5em 8em;
 }
 
 .navbar-list {
@@ -22,6 +22,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 1rem;
+    transition: color 0.3s ease;
 }
 
 .link:hover {
@@ -33,6 +34,12 @@
 #projects .projects .link,
 #contact .contact .link {
     font-weight: bold;
+}
+
+.align {
+    display: flex;
+    align-items: center;
+    height: 85vh;
 }
 
 .content {
@@ -48,7 +55,7 @@
     color: #1E1E1E;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 6rem;
+    font-size: 4rem;
     margin-left: -0.10em;
 }
 
@@ -57,4 +64,10 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 1.3rem;
+}
+
+@media (min-width: 87.5rem) {
+    .title {
+        font-size: 5rem;
+    }
 }

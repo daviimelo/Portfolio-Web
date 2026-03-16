@@ -1,11 +1,46 @@
 .project-image {
-    justify-content: space-between;
+   justify-content: space-between;
+    gap: 3rem;
     margin-top: 3rem;
 }
 
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.subtitle {
+    margin-top: 1rem;
+}
+
 .paragraph-image {
-    color: #1E1E1E;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    color: #1E1E1E;
+    text-align: justify;
     font-size: 1rem;
+}
+
+@media (min-width: 87.5rem) {
+    .image {
+        width: 90%;
+        height: auto;
+    }
+}
+
+@media (max-width: 87.5rem) {
+    .image {
+        width: 80%;
+        height: auto;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    .paragraph-image {
+        font-family: 'Montserrat', sans-serif;
+        color: #1E1E1E;
+        text-align: justify;
+        font-size: 0.8rem;
+    }
 }
