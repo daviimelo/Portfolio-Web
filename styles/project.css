@@ -41,20 +41,27 @@
     }
 }
 
-@media (max-width: 87.5rem) {
-    .image {
-        width: 80%;
-        height: auto;
+@media (max-width: 55rem) {
+    .align {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .content-flex {
+        flex-direction: column;
+    }
+
+    .project-content {
+        width: 100%;
+        max-width: 25rem; 
     }
 
     .subtitle {
         font-size: 1rem;
     }
-
+    
     .paragraph-image {
-        font-family: 'Montserrat', sans-serif;
-        color: #1E1E1E;
-        text-align: justify;
         font-size: 0.8rem;
     }
 }
